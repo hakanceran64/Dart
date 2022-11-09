@@ -39,6 +39,10 @@ Dart Language
 
 ---
 
+## Source
+
+- [https://dart.dev/guides/language/language-tour](https://dart.dev/guides/language/language-tour)
+
 ## Keywords List
 
 ~~~Dart
@@ -68,7 +72,7 @@ Dart Language
 
 ---
 
-## main function
+## main function Hello World
 
 ~~~Dart
 
@@ -77,6 +81,8 @@ Dart Language
     }
 
 ~~~
+
+## Imports
 
 ## Comments
 
@@ -133,84 +139,6 @@ Dart Language
     bool control = 5 > 1;
     
     bool state = false;
-
-~~~
-
-### List
-
-~~~Dart
-
-    var list = [1, 2, 3];
-
-    var list_2 = [
-        "Car",
-        "Boat",
-        "Plane",
-    ];
-
-    List days = new List(7);
-
-    days[0] = "Sunday";
-    days[1] = "Monday";
-    days[2] = "Tuesday";
-    days[3] = "Wednesday";
-    days[4] = "Thursday";
-    days[5] = "Friday";
-    days[6] = "Saturday";
-
-    List<String> sehirler = [
-        "İstanbul",
-        "Ankara",
-        "İzmir",
-    ];
-
-    sehirler.add("Tekirdağ");
-
-    print(sehirler[0])
-
-    print(sehirler.length)
-
-    // Daynamic List
-    List<dynamic> sehirler = ["İstanbul", "Ankara", 15, true]
-
-~~~
-
-### Sets
-
-~~~Dart
-
-    Set halogens = {"fluorine", "chlorine", "bromine", "iodine", "astatine"};
-
-    Set<int> numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9, 0};
-
-~~~
-
-### Map
-
-~~~Dart
-
-    Map days = new Map();
-
-    days["0"] = "Sunday";
-    days["1"] = "Monday";
-    days["2"] = "Tuesday";
-    days["3"] = "Wednesday";
-    days["4"] = "Thursday";
-    days["5"] = "Friday";
-    days["6"] = "Saturday";
-
-    Map<String, int> maaslar = {
-        "Deniz: " : 9000,
-        "Ahmet: " : 7500,
-        "Fazıl: " : 8000,
-    };
-
-    maaslar["Mehmet"] = 4000;
-
-    maasşar["Ahmet: "] = 2800
-
-    List<String> isimler = maaslar.values.toList();
-    List<int> maas = maaslar.keys.toList();
 
 ~~~
 
@@ -317,6 +245,92 @@ Dart Language
 
 ~~~
 
-## Source
+## Control Flow Statements
 
-- [https://dart.dev/guides/language/language-tour](https://dart.dev/guides/language/language-tour)
+## Functions
+
+## Async
+
+## Collections
+
+### List
+
+~~~Dart
+
+    var list = [1, 2, 3];
+
+    var list_2 = [
+        "Car",
+        "Boat",
+        "Plane",
+    ];
+
+    List days = new List(7);
+
+    days[0] = "Sunday";
+    days[1] = "Monday";
+    days[2] = "Tuesday";
+    days[3] = "Wednesday";
+    days[4] = "Thursday";
+    days[5] = "Friday";
+    days[6] = "Saturday";
+
+    List<String> sehirler = [
+        "İstanbul",
+        "Ankara",
+        "İzmir",
+    ];
+
+    sehirler.add("Tekirdağ");
+
+    print(sehirler[0])
+
+    print(sehirler.length)
+
+    // Daynamic List
+    List<dynamic> sehirler = ["İstanbul", "Ankara", 15, true]
+
+~~~
+
+### Sets
+
+~~~Dart
+
+    Set halogens = {"fluorine", "chlorine", "bromine", "iodine", "astatine"};
+
+    Set<int> numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9, 0};
+
+~~~
+
+### Map
+
+~~~Dart
+
+    Map days = new Map();
+
+    days["0"] = "Sunday";
+    days["1"] = "Monday";
+    days["2"] = "Tuesday";
+    days["3"] = "Wednesday";
+    days["4"] = "Thursday";
+    days["5"] = "Friday";
+    days["6"] = "Saturday";
+
+    Map<String, int> maaslar = {
+        "Deniz: " : 9000,
+        "Ahmet: " : 7500,
+        "Fazıl: " : 8000,
+    };
+
+    maaslar["Mehmet"] = 4000;
+
+    maasşar["Ahmet: "] = 2800
+
+    List<String> isimler = maaslar.values.toList();
+    List<int> maas = maaslar.keys.toList();
+
+~~~
+
+## Exception
+
+## Classes and Objects
