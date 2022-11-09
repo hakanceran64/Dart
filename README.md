@@ -4,42 +4,42 @@ Dart Language
 
 ## Content
 
-- Sources
-- Keywords List
-- Main Function Hello World
-- Imports
-- Comments
-- Variables
-- Operators
-- Control Flow Statements
-  - If and else
-  - Switch and case
-  - Assert
-  - While and do-while loops
-  - For loops
-- Functions
-- Async
-- Collections
-  - Lists
-    - List Operations
-  - Sets
-  - Maps
-- Exception
-  - Throw
-  - Catch
-  - Finally
-- Classes and Objects
-  - Constructor
-  - Destructor
-  - Encapsulation
-  - Inheritance
-  - Interface and Abstraction
-  - Polymorphism
-  - Mixins
+- [Sources](#sources)
+- [Keywords List](#keywords-list)
+- [Main Function Hello World](#main-function-hello-world)
+- [Imports](#imports)
+- [Comments](#comments)
+- [Variables](#variables)
+- [Operators](#operators)
+- [Control Flow Statements](#control-flow-statements)
+  - [If and else](#if-and-else)
+  - [Switch and case](#switch-and-case)
+  - [Assert](#assert)
+  - [While and do-while loops](#while-and-do-while-loops)
+  - [For loops](#for-loops)
+- [Functions](#functions)
+- [Async](#async)
+- [Collections](#collections)
+  - [Lists](#lists)
+    - [List Operations]()
+  - [Sets](#sets)
+  - [Maps](#map)
+- [Exception](#exception)
+  - [Throw]()
+  - [Catch]()
+  - [Finally]()
+- [Classes and Objects](#classes-and-objects)
+  - [Constructor]()
+  - [Destructor]()
+  - [Encapsulation]()
+  - [Inheritance]()
+  - [Interface and Abstraction]()
+  - [Polymorphism]()
+  - [Mixins]()
 
 ---
 
-## Source
+## Sources
 
 - [https://dart.dev/guides/language/language-tour](https://dart.dev/guides/language/language-tour)
 
@@ -247,13 +247,23 @@ Dart Language
 
 ## Control Flow Statements
 
+## If and else
+
+## Switch and case
+
+## Assert
+
+## While and do-while loops
+
+## For loops
+
 ## Functions
 
 ## Async
 
 ## Collections
 
-### List
+### Lists
 
 ~~~Dart
 
@@ -324,7 +334,7 @@ Dart Language
 
     maaslar["Mehmet"] = 4000;
 
-    maasşar["Ahmet: "] = 2800
+    maaslar["Ahmet: "] = 2800
 
     List<String> isimler = maaslar.values.toList();
     List<int> maas = maaslar.keys.toList();
