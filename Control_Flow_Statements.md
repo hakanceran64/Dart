@@ -119,7 +119,7 @@
 
 ## Looping Statements
 
-### While Loops
+### While loops
 
 ~~~Dart
 
