@@ -43,6 +43,8 @@ Dart Language
 
 - [https://dart.dev/guides/language/language-tour](https://dart.dev/guides/language/language-tour)
 
+---
+
 ## Keywords List
 
 ~~~Dart
@@ -72,6 +74,8 @@ Dart Language
 
 ---
 
+---
+
 ## main function Hello World
 
 ~~~Dart
@@ -82,7 +86,11 @@ Dart Language
 
 ~~~
 
+---
+
 ## Imports
+
+---
 
 ## Comments
 
@@ -96,7 +104,11 @@ Dart Language
 
 ~~~
 
+---
+
 ## Variables
+
+---
 
 ### Numbers (Integer and Double)
 
@@ -112,6 +124,8 @@ Dart Language
     // float number_1; // error.
 
 ~~~
+
+---
 
 ### Strings
 
@@ -132,6 +146,8 @@ Dart Language
 
 ~~~
 
+---
+
 ### Boolean
 
 ~~~Dart
@@ -141,6 +157,8 @@ Dart Language
     bool state = false;
 
 ~~~
+
+---
 
 ## Dynamic Keyword
 
@@ -157,6 +175,8 @@ Dart Language
 
 ~~~
 
+---
+
 ## Var Keyword
 
 ~~~Dart
@@ -168,6 +188,8 @@ Dart Language
     var config = "config";
 
 ~~~
+
+---
 
 ## Const Keyword
 
@@ -183,6 +205,8 @@ Dart Language
 
     number = number_1 + number_2; // error
 ~~~
+
+---
 
 ## Final Keyword
 
@@ -216,6 +240,8 @@ Dart Language
     int kilo_int = int.parse(kilo);
 ~~~
 
+---
+
 ## Operators
 
 ~~~Dart
@@ -245,23 +271,19 @@ Dart Language
 
 ~~~
 
-## Control Flow Statements
-
-## If and else
-
-## Switch and case
-
-## Assert
-
-## While and do-while loops
-
-## For loops
+---
 
 ## Functions
 
+---
+
 ## Async
 
+---
+
 ## Collections
+
+---
 
 ### Lists
 
@@ -302,6 +324,8 @@ Dart Language
 
 ~~~
 
+---
+
 ### Sets
 
 ~~~Dart
@@ -311,6 +335,8 @@ Dart Language
     Set<int> numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9, 0};
 
 ~~~
+
+---
 
 ### Map
 
@@ -341,6 +367,12 @@ Dart Language
 
 ~~~
 
+---
+
 ## Exception
 
+---
+
 ## Classes and Objects
+
+---

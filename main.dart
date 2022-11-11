@@ -1,7 +1,3 @@
+// ignore_for_file: unused_local_variable
 
-void main(){
-  int hakan = 12;
-
-  print(hakan);
-
-}
+void main(List<String> arguments) {}
