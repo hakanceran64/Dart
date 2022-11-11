@@ -115,6 +115,64 @@
 
 ~~~
 
+~~~Dart
+
+    var command = "OPEN";
+
+    switch (command) {
+        case "CLOSED":
+            executeClosed();
+            break;
+        case "PENDING":
+            executePending();
+            break;
+        case "APPROVED":
+            executeApproved();
+            break;
+        case "DENIED":
+            executeDenied();
+            break;
+        case "OPEN":
+            executeOpen();
+            break;
+        default:
+            executeUnknown();
+    }
+
+~~~
+
+~~~Dart
+
+    // Switch Case and Continue Example
+
+    var command = "PENDING";
+
+    switch (command) {
+        case "CLOSED":
+            executeClosed();
+            break;
+        case "PENDING":
+            executePending();
+            continue nowClosed;
+        case "APPROVED":
+            executeApproved();
+            break;
+        case "DENIED":
+            executeDenied();
+            break;
+        nowClosed:
+        case "NOW_CLOSED":
+            executeNowClosed();
+            break;
+        case "OPEN":
+            executeOpen();
+            break;
+        default:
+            executeUnknown();
+    }
+
+~~~
+
 ---
 
 ## Looping Statements
