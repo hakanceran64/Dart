@@ -11,12 +11,7 @@ Dart Language
 - [Comments](#comments)
 - [Variables](#variables)
 - [Operators](#operators)
-- [Control Flow Statements](#control-flow-statements)
-  - [If and else](#if-and-else)
-  - [Switch and case](#switch-and-case)
-  - [Assert](#assert)
-  - [While and do-while loops](#while-and-do-while-loops)
-  - [For loops](#for-loops)
+- [Control Flow Statements](/Control_Flow_Statements.md#control-flow-statements)
 - [Functions](#functions)
 - [Async](#async)
 - [Collections](#collections)
@@ -71,8 +66,6 @@ Dart Language
 [2] dynamic         [2] implements      [2] set
 
 ~~~
-
----
 
 ---
 
@@ -270,10 +263,6 @@ Dart Language
     */
 
 ~~~
-
----
-
-## Functions
 
 ---
 
