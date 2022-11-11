@@ -12,7 +12,7 @@ Dart Language
 - [Variables](#variables)
 - [Operators](#operators)
 - [Control Flow Statements](/Control_Flow_Statements.md#control-flow-statements)
-- [Functions](#functions)
+- [Functions](/Functions.md#functions)
 - [Async](#async)
 - [Collections](#collections)
   - [Lists](#lists)
