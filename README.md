@@ -25,3 +25,4 @@ Dart Language
 
 - [https://dart.dev/guides/language/language-tour](https://dart.dev/guides/language/language-tour)
 - [Language Samples](https://dart.dev/samples)
+- [Effective Dart](https://dart.dev/guides/language/effective-dart)
