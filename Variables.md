@@ -22,6 +22,8 @@
     // declare an integer
     int number = 12;
 
+    int hex_numero = 0xDEADBEEF;
+
 ~~~
 
 ### Double
@@ -31,6 +33,8 @@
     // declare a double value
     double e = 2.718;
     double pi = 3.14;
+
+    double exponents = 1.42e5;
 
 ~~~
 
@@ -52,6 +56,14 @@ Dart not supported Float!
 
     String name = "Hakan";
     String surname = "CERAN";
+
+    String s1 = '''
+    You can create
+    multi-line strings like this one.
+    ''';
+
+    String s2 = """This is also a
+    multi-line string.""";
 
     print(name);
 
@@ -201,12 +213,12 @@ Dart not supported Float!
 
 ~~~Dart
     
-    // int to String
+    // int -> String
     int yas = 26;
     String yasMetin = yas.toString();
     print(yasMetin.runtimeType);
 
-    // Double to String
+    // Double -> String
     double pi = 3.1418;
     String pi_String = pi.toStringAsFixed(2);
     print(pi_String.runtimeType);
@@ -214,11 +226,11 @@ Dart not supported Float!
     String boy = "1.78";
     String kilo = "112";
 
-    // String to Double
+    // String -> Double
     double boy_double = double.parse(boy);
     print(boy_double.runtimeType);
 
-    // String to Int
+    // String -> Int
     int kilo_int = int.parse(kilo);
     int boy_int = int.parse(boy); // error
     print(kilo_int.runtimeType);
