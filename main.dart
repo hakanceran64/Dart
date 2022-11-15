@@ -2,6 +2,7 @@
 
 void main(List<String> arguments) {
   var command = "OPEN";
+
   switch (command) {
     case "OPEN":
       print("OPEN");
@@ -15,4 +16,12 @@ void main(List<String> arguments) {
       break;
     default:
   }
+
+  List<String> list_color = ["red", "yellow"];
+
+  num x = 12;
+
+  var list_name = new List.filled(10, null, growable: false);
+
+  print(list_name.runtimeType);
 }
