@@ -24,4 +24,4 @@ Dart Language
 ## Sources
 
 - [https://dart.dev/guides/language/language-tour](https://dart.dev/guides/language/language-tour)
-- [https://dart.dev/samples](Language Samples)
+- [Language Samples](https://dart.dev/samples)
