@@ -18,11 +18,12 @@ Dart Language
 - [Exception](/Exception.md#exception)
 - [Classes and Objects](/Classes_and_Objects.md#classes-and-objects)
 
-
 ---
 
 ## Sources
 
-- [https://dart.dev/guides/language/language-tour](https://dart.dev/guides/language/language-tour)
-- [Language Samples](https://dart.dev/samples)
-- [Effective Dart](https://dart.dev/guides/language/effective-dart)
+- [A tour of the dart language](https://dart.dev/guides/language/language-tour)
+- [Language samples](https://dart.dev/samples)
+- [Effective dart](https://dart.dev/guides/language/effective-dart)
+- [A tour of the core libraries](https://dart.dev/guides/libraries/library-tour)
+- [Asynchronous programming: futures, async, await](https://dart.dev/codelabs/async-await)
