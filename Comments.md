@@ -4,8 +4,15 @@
 
     // This is a comment.
 
+~~~
+
+~~~Dart
+
     /*
-        and so is this.
+        This
+        is
+        a
+        comment.
     */
 
 ~~~
